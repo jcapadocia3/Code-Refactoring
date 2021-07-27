@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/* Moved element specific property changes to top of style sheet */
 body {
     background-color: #d9dcd6;
 }
@@ -86,7 +86,7 @@ p {
     background-color: #2589bd;
 }
 
-/* Combined classes with the same properties applied */
+/* Combined classes with the same properties applied within the same syntax */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -139,7 +139,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* Changed h2 tag to h4 to properly apply properties to .html file where applicable */
+.footer h4 {
     font-size: 20px;
 }
