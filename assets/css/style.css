@@ -50,25 +50,6 @@ header nav ul li {
     margin-left: 25px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 main {
     width: 75%;
     display: inline-block;
@@ -130,4 +111,21 @@ footer {
 /* Changed h2 tag to h4 to properly apply properties to .html file where applicable */
 footer h4 {
     font-size: 20px;
+}
+
+/* Replaced background img created in .css with direct img syntax in .html */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
